@@ -80,6 +80,8 @@ Belows are the rules to convert from UML model elements to PHP source codes.
 
 ### Installing the Plugin from Github
 
+https://github.com/rootsnase/staruml-php/archive/refs/heads/master.zip
+
 ![Get the Github-Package url](./docs/2022-11-10_22-41.png)
 
 ![Install from Source](./docs/2022-11-10_22-34.png)
