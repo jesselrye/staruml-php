@@ -90,8 +90,7 @@ class PHPCodeGenerator {
                 codeWriter.writeLine("<?php");
 
                 if (options.useStrictTypes === true) {
-                    codeWriter.writeLine("");
-                    codeWriter.writeLine("declare(strict_types=1);");
+                    codeWriter.writeLine(" declare(strict_types=1);");
                     codeWriter.writeLine("");
                 }
 
@@ -106,8 +105,7 @@ class PHPCodeGenerator {
                 codeWriter.writeLine("<?php");
 
                 if (options.useStrictTypes === true) {
-                    codeWriter.writeLine("");
-                    codeWriter.writeLine("declare(strict_types=1);");
+                    codeWriter.writeLine(" declare(strict_types=1);");
                     codeWriter.writeLine("");
                 }
 
@@ -124,8 +122,7 @@ class PHPCodeGenerator {
             codeWriter.writeLine("<?php");
 
             if (options.useStrictTypes === true) {
-                codeWriter.writeLine("");
-                codeWriter.writeLine("declare(strict_types=1);");
+                codeWriter.writeLine(" declare(strict_types=1);");
                 codeWriter.writeLine("");
             }
 
@@ -141,8 +138,7 @@ class PHPCodeGenerator {
             codeWriter.writeLine("<?php");
 
             if (options.useStrictTypes === true) {
-                codeWriter.writeLine("");
-                codeWriter.writeLine("declare(strict_types=1);");
+                codeWriter.writeLine(" declare(strict_types=1);");
                 codeWriter.writeLine("");
             }
             
