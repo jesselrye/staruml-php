@@ -78,6 +78,11 @@ Belows are the rules to convert from UML model elements to PHP source codes.
 * converted to _PHP Implements_ (`implements`).
 * Allowed only for _UMLClass_ to _UMLInterface_.
 
+### Installing the Plugin from Github
+
+![Get the Github-Package url](./docs/2022-11-10_22-41.png)
+
+![Install from Source](./docs/2022-11-10_22-34.png)
 ---
 
 Licensed under the MIT license (see LICENSE file).
