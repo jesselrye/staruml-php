@@ -1,7 +1,7 @@
 {
   "name": "rootsnase.staruml-php",
   "title": "PHP 8.1",
-  "description": "PHP code generation. At the moment a bit buggy probably. Just open new issues with your behavior and your .mdj file and I'll fix it.",
+  "description": "PHP 8.1 code generation. At the moment a bit buggy probably. Just open new issues with your behavior and your .mdj file and I'll fix it.",
   "homepage": "https://github.com/rootsnase/staruml-php",
   "issues": "https://github.com/rootsnase/staruml-php/issues",
   "keywords": ["php"],
