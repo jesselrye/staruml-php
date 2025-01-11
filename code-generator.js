@@ -564,6 +564,9 @@ class PHPCodeGenerator {
             terms.push(_modifiers.join(' '))
         }
 
+        codeWriter.writeLine('use Illuminate\Database\Eloquent\Factories\HasFactory;');
+        codeWriter.writeLine('use Illuminate\Database\Eloquent\Model;');
+        codeWriter.writeLine('use Illuminate\Database\Eloquent\Model;');
         // Class
         terms.push('class');
         terms.push(elem.name);
@@ -787,10 +790,7 @@ class PHPCodeGenerator {
 
         if (options.classBracesOnNextLine === true) {
             codeWriter.writeLine(terms.join(' '));    
-            codeWriter.writeLine('{');   
-            codeWriter.writeLine('use Illuminate\Database\Eloquent\Factories\HasFactory;');
-            codeWriter.writeLine('use Illuminate\Database\Eloquent\Model;');
-            codeWriter.writeLine('use Illuminate\Database\Eloquent\Model;');
+            codeWriter.writeLine('{');
         } else {
             codeWriter.writeLine(terms.join(' ') + ' {');
         }
