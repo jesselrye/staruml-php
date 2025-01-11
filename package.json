@@ -1,15 +1,15 @@
 {
-  "name": "rootsnase.staruml-php",
-  "title": "PHP 8.1",
-  "description": "PHP 8.1 code generation. At the moment a bit buggy probably. Just open new issues with your behavior and your .mdj file and I'll fix it.",
-  "homepage": "https://github.com/rootsnase/staruml-php",
-  "issues": "https://github.com/rootsnase/staruml-php/issues",
+  "name": "jesselrye.staruml-php",
+  "title": "PHP Laravel",
+  "description": "PHP Laravel",
+  "homepage": "https://github.com/jesselrye/staruml-php",
+  "issues": "https://github.com/jesselrye/staruml-php/issues",
   "keywords": ["php"],
-  "version": "0.2.1",
+  "version": "0.0.1",
   "author": {
-    "name": "@rootsnase / Robin Glauser",
-    "email": "robin.glauser@gmail.com",
-    "url": "https://github.com/rootsnase/ || https://github.com/nahakiole"
+    "name": "",
+    "email": "",
+    "url": ""
   },
   "contributors": [
     {
