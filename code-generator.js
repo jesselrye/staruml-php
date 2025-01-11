@@ -783,11 +783,14 @@ class PHPCodeGenerator {
 
         // Enum
         terms.push('class');
-        terms.push(elem.name);
+        terms.push(elem.name && ' extends Model');
 
         if (options.classBracesOnNextLine === true) {
             codeWriter.writeLine(terms.join(' '));    
-            codeWriter.writeLine('{');    
+            codeWriter.writeLine('{');   
+            codeWriter.writeLine('use Illuminate\Database\Eloquent\Factories\HasFactory;');
+            codeWriter.writeLine('use Illuminate\Database\Eloquent\Model;');
+            codeWriter.writeLine('use Illuminate\Database\Eloquent\Model;');
         } else {
             codeWriter.writeLine(terms.join(' ') + ' {');
         }
